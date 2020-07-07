@@ -512,7 +512,7 @@
 	
 	"Menu_ClassesSurvivorsSpy"
 	{
-		"chi"		"以隐身手表和位置工具开局。\n击杀时获得2主武器弹药，可以超过最大值。"
+		"chi"		"以隐身手表和伪装工具开局。\n击杀时获得2主武器弹药，可以超过最大值。"
 	}
 	
 	"Menu_ClassesInfectedScout"
@@ -537,7 +537,7 @@
 	
 	"Menu_ClassesInfectedHeavy"
 	{
-		"chi:		"在感染者尸潮时获得更少的移动速度和生命恢复。\n可以使用食物，也可以伤害幸存者。"
+		"chi"		"在感染者尸潮时获得更少的移动速度和生命恢复。\n可以使用食物，也可以伤害幸存者。"
 	}
 	
 	"Menu_ClassesInfectedEngineer"
