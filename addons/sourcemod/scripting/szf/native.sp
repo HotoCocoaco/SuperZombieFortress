@@ -6,7 +6,7 @@ void Native_AskLoad()
 	CreateNative("SZF_GetWeaponPickupCount", Native_GetWeaponPickupCount);
 	CreateNative("SZF_GetWeaponRarePickupCount", Native_GetWeaponRarePickupCount);
 	CreateNative("SZF_GetWeaponCalloutCount", Native_GetWeaponCalloutCount);
-	CreateNative("SZF_GetZombieDamageScale", )
+	CreateNative("SZF_GetZombieDamageScale", Native_GetZombieDamageScale);
 }
 
 public any Native_GetSurvivorTeam(Handle hPlugin, int iNumParams)
