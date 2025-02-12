@@ -6,6 +6,7 @@ void Native_AskLoad()
 	CreateNative("SZF_GetWeaponPickupCount", Native_GetWeaponPickupCount);
 	CreateNative("SZF_GetWeaponRarePickupCount", Native_GetWeaponRarePickupCount);
 	CreateNative("SZF_GetWeaponCalloutCount", Native_GetWeaponCalloutCount);
+	CreateNative("SZF_GetZombieDamageScale", )
 }
 
 public any Native_GetSurvivorTeam(Handle hPlugin, int iNumParams)
@@ -61,4 +62,9 @@ public any Native_GetWeaponCalloutCount(Handle hPlugin, int iNumParams)
 		ThrowNativeError(SP_ERROR_NATIVE, "Client %d is not in game", iClient);
 	
 	return GetCookie(iClient, g_cWeaponsCalled);
+}
+
+public any Native_GetZombieDamageScale(Handle hPlugin, int iNumParams)
+{
+	return g_flZombieDamageScale;
 }

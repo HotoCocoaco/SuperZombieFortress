@@ -189,6 +189,13 @@ native int SZF_GetWeaponRarePickupCount(int iClient);
  */
 native int SZF_GetWeaponCalloutCount(int iClient);
 
+/**
+ * Gets the currunt zombie damage scale
+ *
+ * @return	The currunt zombie damage scale.
+ */
+native int SZF_GetZombieDamageScale();
+
 public SharedPlugin __pl_superzombiefortress =
 {
 	name = "superzombiefortress",
@@ -208,4 +215,5 @@ public void __pl_superzombiefortress_SetNTVOptional()
 	MarkNativeAsOptional("SZF_GetWeaponPickupCount");
 	MarkNativeAsOptional("SZF_GetWeaponRarePickupCount");
 	MarkNativeAsOptional("SZF_GetWeaponCalloutCount");
+	MarkNativeAsOptional("SZF_GetZombieDamageScale");
 }
